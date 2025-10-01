@@ -1,0 +1,29 @@
+{
+  "name": "react_learning_series",
+  "version": "1.0.0",
+  "description": "It is a start of learning react from 0 to 100",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/SagarPrajapati1/React_Learning_Series)"
+  },
+  "keywords": [
+    "React",
+    "Node",
+    "Parcel"
+  ],
+  "author": "Sagar",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
