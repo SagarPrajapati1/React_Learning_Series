@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "It is a start of learning react from 0 to 100",
   "scripts": {
+    "start": "parcel Day_02/index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
