@@ -1,14 +1,14 @@
 {
-  "name": "day_01",
+  "name": "day_02",
   "version": "1.0.0",
-  "description": "Initial Phase",
+  "description": "React",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "jest"
   },
   "keywords": [
-    "react"
+    "React"
   ],
   "author": "Sagar",
   "license": "ISC",
