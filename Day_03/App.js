@@ -19,7 +19,6 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 // error because react element do not have render method we can only use root to render
 // const t = <h2>Hello</h2>
 // const temp = React.createElement("h2", { "id": "temp" }, "hello world!!!!!!!!!");
-
 // temp.render(t);
 
 // root.render(jsxHeading);
@@ -101,4 +100,12 @@ function TempComponent1() {
     )
 }
 
-root.render(<TempComponent1 />);
+
+const elem = (
+    <div>
+        Inside the elem, 
+        <HeadingComponent1/>
+    </div>
+)
+
+root.render(elem);
