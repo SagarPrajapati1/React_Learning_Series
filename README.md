@@ -136,10 +136,10 @@
 
 
 >>> # Interview Guide
-- What is React?
-- What is CDN?
-- What is crossorigin?
-- What is React Component?
-- What are the typre of React Component?
-- What is Component Composition?
-- What is JSX?
+- What is React ?
+- What is CDN ?
+- What is crossorigin ?
+- What is React Component ?
+- What are the types of React Component ?
+- What is Component Composition ?
+- What is JSX ?
