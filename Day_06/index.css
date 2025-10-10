@@ -61,3 +61,11 @@ body{
     gap: 5px;
 }
 
+.filter{
+    padding: 10px; 
+}
+.filter > .filter-btn{
+    padding: 10px;
+    cursor: pointer;
+}
+

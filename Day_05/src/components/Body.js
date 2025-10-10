@@ -1,5 +1,5 @@
 import RestaurantCard from './RestaurantCard';
-import reslist from '../utils/mockdata'; // default import <- default export (export default reslist)
+import reslist from '../utils/mockData'; // default import <- default export (export default reslist)
 import { useState } from 'react'; // named import <- named export (export const useState = () =>())
 
 // React Hooks
@@ -11,7 +11,7 @@ const Body = () => {
 
     // State Variable -super powerful variable
     const [listOfRestaurants, setListOfReataurants] = useState(reslist); // array destructuring
-    
+
     // same as above syntax
     // const arr = useState(reslist);
     // const [a1, setA1] = arr;
@@ -37,7 +37,7 @@ const Body = () => {
             </div>
             <div className="res-container">
                 {listOfRestaurants.map((res) =>
-                    <RestaurantCard key={res.info.id} resData={res} /> 
+                    <RestaurantCard key={res.info.id} resData={res} />
                 )}
             </div>
         </div>
